@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyQuiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+   
+    <div class="nam">
+        <ul>
+            <li>1.This quiz contains 5 questions.</li>
+            <li>2.The question number cannot be reversed.</li>
+            <li>3.Each question carrys 1 mark.</li>
+            <li>4.Click on Enter to enter the quiz.</li>
+        </ul>
+        
+        <input type="text" placeholder="Enter Your Name" id="name">
+        <br>
+        <button id="enter">Enter</button>
+    </div>
+    <div class="container">
+        <div class="progress">
+            <div class="pr1"></div>
+        </div>
+        <h2 id="question">qqqqq</h2>
+        <div class="optionlist">
+            <div class="option">
+            <input  type="radio" name="k" id="op1" value="a">
+            <label for="op1">zzzzzzz</label>
+            </div>
+            <div class="option">
+            <input type="radio" name="k" id="op2" value="b">
+            <label for="op2">zzzzzzz</label>
+            </div>
+            <div class="option">
+            <input type="radio" name="k" id="op3" value="c">
+            <label for="op3">zzzzzzz</label>
+            </div>
+            <div class="option">
+            <input type="radio" name="k" id="op4" value="d">
+            <label for="op4">zzzzzzz</label>
+            </div>
+        </div>
+        
+        
+        <button id="next">NEXT</button>
+    </div>
+    <div class="subcont">
+    <button id="submit">SUBMIT</button>
+        <span id="user"></span>
+        <p id="score">0</p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
